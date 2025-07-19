@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVENTORY</title>
+    <link rel="stylesheet" href="style.css">
+      <style>
+    .car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+.car-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.car-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+  </style>
+</head>
+<body>
+    <section class="header" style="background-image: url(imeges/img-6.jpg);">
+        <nav class="nav">
+            <a href="index.html"><img src="imeges/logo-removebg-preview.png" alt=""></a>
+            <div class="nar_links">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="INVENTORY.html">INVENTORY</a></li>
+                    <li><a href="BLOG.html">BLOG</a></li>  
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </nav>
+        <div class="tex_box">
+            <h1>WELCOME TO CAR BIN CALI COMPANY</h1>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h5>
+            
+
+    </section>
+
+     <main>
+            <h2 style="text-align:center; margin: 30px;">Available Cars</h2>
+            <section class="car-grid">
+                <div class="car-card">
+                    <img src="imeges/car-11 (1).jpg" alt="Toyota Camry">
+                    <h3>Toyota Camry</h3>
+                    <p>$20,000</p>
+                </div>
+                <div class="car-card">
+                    <img src="imeges/car-6 (1).jpg" alt="Honda Civic">
+                    <h3>Honda Civic</h3>
+                    <p>$18,500</p>
+                </div>
+                <div class="car-card">
+                    <img src="imeges/car-3.jpg" alt="BMW X5">
+                    <h3>BMW X5</h3>
+                    <p>$45,000</p>
+                </div>
+            </section>
+    </main>
+    <footer class="footer">
+  <div class="footer-container">
+
+    <!-- Section 1: Main Pages -->
+    <div class="footer-section">
+      <h3>Main Pages</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Inventory</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Section 2: Utility Pages -->
+    <div class="footer-section">
+      <h3>Utility Pages</h3>
+      <ul>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <!-- Section 3: Contact Info -->
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>123 Auto Street<br> Hargeisa, Somalia</p>
+      <p>Phone: +252 61 234 5678</p>
+      <p>Email: info@cardealer.com</p>
+    </div>
+
+    <!-- Section 4: Social Media -->
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#">Facebook</a> |
+        <a href="#">Instagram</a> |
+        <a href="#">Twitter</a>
+      </div>
+      <p class="copyright">&copy; 2025 Car Dealer Co.</p>
+    </div>
+
+  </div>
+</footer>
+    
+</body>
+</html>
